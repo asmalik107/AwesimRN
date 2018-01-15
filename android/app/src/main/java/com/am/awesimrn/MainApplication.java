@@ -1,4 +1,4 @@
-package com.awesimrn;
+package com.am.awesimrn;
 
 import android.app.Application;
 

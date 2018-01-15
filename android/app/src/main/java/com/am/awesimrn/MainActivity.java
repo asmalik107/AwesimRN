@@ -1,4 +1,4 @@
-package com.awesimrn;
+package com.am.awesimrn;
 
 import com.facebook.react.ReactActivity;
 
