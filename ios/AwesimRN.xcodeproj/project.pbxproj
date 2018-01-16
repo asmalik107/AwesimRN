@@ -1346,7 +1346,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.am.AwesimRN;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.am.awesim-RN";
 				PRODUCT_NAME = AwesimRN;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1376,7 +1376,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.am.AwesimRN;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.am.awesim-RN";
 				PRODUCT_NAME = AwesimRN;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
