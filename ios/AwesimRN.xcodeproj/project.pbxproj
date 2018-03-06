@@ -24,6 +24,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		181175FE4F8E4C94B9BBCE73 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE6072E06DC489B9226F5C8 /* AppCenter-Config.plist */; };
+		41D8252AEA854668B2315381 /* libAppCenterReactNativePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5F3BB0D354655A3E20C38 /* libAppCenterReactNativePush.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		61F73B5621D2C50D727ED770 /* libPods-AwesimRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9917ECBAD2F38FF841A77A35 /* libPods-AwesimRN.a */; };
 		6C151E9564364650B6F468D1 /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E3A37CB28B4FDAA7EB4228 /* libAppCenterReactNativeCrashes.a */; };
@@ -96,6 +97,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
+		};
+		2C272E1C204D654C0074146A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8E2C25D05CF43A8991E0018 /* AppCenterReactNativePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA189FAA1EEE74F100CAD13F;
+			remoteInfo = AppCenterReactNativePush;
 		};
 		2C534831200CF77F00E80DCB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -343,8 +351,10 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesimRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesimRN/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		2C272E77204D6B1C0074146A /* AwesimRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AwesimRN.entitlements; path = AwesimRN/AwesimRN.entitlements; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1E889760C8119EC80675C6 /* Pods-AwesimRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesimRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesimRN/Pods-AwesimRN.debug.xcconfig"; sourceTree = "<group>"; };
+		4EF5F3BB0D354655A3E20C38 /* libAppCenterReactNativePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativePush.a; sourceTree = "<group>"; };
 		4F03419B2E5BD55FE9CA77AF /* Pods-AwesimRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesimRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesimRN/Pods-AwesimRN.release.xcconfig"; sourceTree = "<group>"; };
 		4FA854204F44DC00A340D189 /* Pods-AwesimRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesimRNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesimRNTests/Pods-AwesimRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -360,6 +370,7 @@
 		D367A699CF660E0DA1BD46A5 /* libPods-AwesimRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesimRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E727CEA2ED694B6A8C762E92 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		F5F205C50539454B83785906 /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		F8E2C25D05CF43A8991E0018 /* AppCenterReactNativePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativePush.xcodeproj; path = "../node_modules/appcenter-push/ios/AppCenterReactNativePush.xcodeproj"; sourceTree = "<group>"; };
 		FAE6072E06DC489B9226F5C8 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "AwesimRN/AppCenter-Config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -394,6 +405,7 @@
 				0B34C422404C4C3C8BE31F34 /* libAppCenterReactNativeAnalytics.a in Frameworks */,
 				6C151E9564364650B6F468D1 /* libAppCenterReactNativeCrashes.a in Frameworks */,
 				61F73B5621D2C50D727ED770 /* libPods-AwesimRN.a in Frameworks */,
+				41D8252AEA854668B2315381 /* libAppCenterReactNativePush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 		13B07FAE1A68108700A75B9A /* AwesimRN */ = {
 			isa = PBXGroup;
 			children = (
+				2C272E77204D6B1C0074146A /* AwesimRN.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -516,12 +529,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2C272E19204D654B0074146A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C272E1D204D654C0074146A /* libAppCenterReactNativePush.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2C53484D200D0BD100E80DCB /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				E727CEA2ED694B6A8C762E92 /* libAppCenterReactNative.a */,
 				A4575FB9104543F7B9A8036F /* libAppCenterReactNativeAnalytics.a */,
 				74E3A37CB28B4FDAA7EB4228 /* libAppCenterReactNativeCrashes.a */,
+				4EF5F3BB0D354655A3E20C38 /* libAppCenterReactNativePush.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -596,6 +618,7 @@
 				709CD1C3043F4144921C0022 /* AppCenterReactNative.xcodeproj */,
 				F5F205C50539454B83785906 /* AppCenterReactNativeAnalytics.xcodeproj */,
 				C96E20E392E442D4A6C2DE7D /* AppCenterReactNativeCrashes.xcodeproj */,
+				F8E2C25D05CF43A8991E0018 /* AppCenterReactNativePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -717,6 +740,11 @@
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 5ES874S4M4;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -743,6 +771,10 @@
 				{
 					ProductGroup = 2C5348F2200D0C2A00E80DCB /* Products */;
 					ProjectRef = C96E20E392E442D4A6C2DE7D /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
+				{
+					ProductGroup = 2C272E19204D654B0074146A /* Products */;
+					ProjectRef = F8E2C25D05CF43A8991E0018 /* AppCenterReactNativePush.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -856,6 +888,13 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C272E1D204D654C0074146A /* libAppCenterReactNativePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativePush.a;
+			remoteRef = 2C272E1C204D654C0074146A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		2C534832200CF77F00E80DCB /* libjsinspector.a */ = {
@@ -1273,12 +1312,14 @@
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
 					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
 					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				INFOPLIST_FILE = AwesimRNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1304,12 +1345,14 @@
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
 					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
 					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				INFOPLIST_FILE = AwesimRNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1328,6 +1371,7 @@
 			baseConfigurationReference = 4B1E889760C8119EC80675C6 /* Pods-AwesimRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AwesimRN/AwesimRN.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1338,6 +1382,7 @@
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
 					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
 					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				INFOPLIST_FILE = AwesimRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1359,6 +1404,7 @@
 			baseConfigurationReference = 4F03419B2E5BD55FE9CA77AF /* Pods-AwesimRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AwesimRN/AwesimRN.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1368,6 +1414,7 @@
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
 					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
 					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/appcenter-push/ios/AppCenterReactNativePush",
 				);
 				INFOPLIST_FILE = AwesimRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
