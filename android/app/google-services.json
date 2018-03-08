@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "603881162050",
+    "firebase_url": "https://com-am-awesimrn.firebaseio.com",
+    "project_id": "com-am-awesimrn",
+    "storage_bucket": "com-am-awesimrn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603881162050:android:b6bd0477ce5deb5c",
+        "android_client_info": {
+          "package_name": "com.am.awesimrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603881162050-urv1af9gctq1376mcm7raceee4nol33p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.am.awesimrn",
+            "certificate_hash": "a3ea495e13955bca220f0301118c783eb2d2bc46"
+          }
+        },
+        {
+          "client_id": "603881162050-o49bfmtobnokh5jdf89fm3sme5u6ub59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEC4_W5s8Xe7s6NaVeErYFw_0Huv-8zHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603881162050-o49bfmtobnokh5jdf89fm3sme5u6ub59.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "603881162050-j9m9uli6vlt1n8jvn1d13lv4feaqsm69.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.am.Awesim-RN"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

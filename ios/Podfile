@@ -9,8 +9,8 @@ target 'AwesimRN' do
   pod 'AppCenter/Crashes', '~> 1.1.0'
   pod 'AppCenter/Analytics', '~> 1.1.0'
   pod 'AppCenterReactNativeShared', '~> 1.1.0'
-
-  
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 
   target 'AwesimRNTests' do
     inherit! :search_paths
